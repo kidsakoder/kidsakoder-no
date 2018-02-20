@@ -485,7 +485,7 @@ template {
   transition-timing-function: ease-out; }
 
 .lkk-news__title:hover, .lkk-news__title:focus, .lkk-news__title:active {
-  color: #white; }
+  color: white; }
 
 .lkk-news__title:hover:before, .lkk-news__title:focus:before, .lkk-news__title:active:before {
   -webkit-transform: scaleX(1);
