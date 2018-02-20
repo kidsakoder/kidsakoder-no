@@ -1,6 +1,6 @@
 # Kidsakoder.no
 
-[![Build Status](https://kk-ci.customer.enonic.io/job/test-kk-app/badge/icon)](https://kk-ci.customer.enonic.io/job/test-kk-app/)
+[![Build Status](https://kk-ci.customer.enonic.io/buildStatus/icon?job=test-kk-app)](https://kk-ci.customer.enonic.io/job/test-kk-app/)
 
 Kidsakoder.no is based on the [Enonic XP platform](http://xp.readthedocs.io/en/stable/).
 
