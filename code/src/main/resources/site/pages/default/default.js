@@ -27,12 +27,19 @@ exports.get = function(req) {
             path: 'css/style.min.css'
         }) + '">';
 
+    var entrypoints = [
+        'build/static/js/main.js',
+    ].map(function (path) {
+        return '<script defer src="' + libs.portal.assetUrl({path: path}) + '"></script>'
+    }).join('\n');
+
     // Return the response object
     return {
         body: body,
         pageContributions: {
           headEnd: [
-              customStyles
+              customStyles,
+              entrypoints
           ]
         }
 
