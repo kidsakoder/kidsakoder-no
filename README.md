@@ -1,7 +1,7 @@
 # Kidsakoder.no
 [![Build Status](https://kk-ci.customer.enonic.io/buildStatus/icon?job=test-kk-app)](https://kk-ci.customer.enonic.io/job/test-kk-app/)
 
-Kidsakoder.no is based on the [Enonic XP platform](http://xp.readthedocs.io/en/stable/).
+kidsakoder.no is based on the [Enonic XP platform](http://xp.readthedocs.io/en/stable/).
 
 # Installation requirements
 To run this site locally, you will have to install [Docker](https://docs.docker.com/install/) and [Docker Compose](https://docs.docker.com/compose/install/).
