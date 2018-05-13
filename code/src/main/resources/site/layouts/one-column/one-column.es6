@@ -9,10 +9,18 @@ exports.get = () => {
 
   // Find the current component.
   const component = portal.getComponent();
+  const {
+    config: {
+      color,
+    },
+  } = component;
+
+  const bgColor = `${color}`;
 
   // Define the model
   const model = {
     middleRegion: component.regions.middle,
+    color: bgColor || 'white' ,
   };
 
   // Render a thymeleaf template
