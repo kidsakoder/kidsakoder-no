@@ -1,9 +1,11 @@
-<section class="row center-md">
-
-  <div data-portal-region="middle" class="col-xs-12">
-      <div data-th-each="component : ${middleRegion.components}" data-th-remove="tag">
-          <div data-portal-component="${component.path}" data-th-remove="tag" />
-      </div>
-  </div>
-
-</section>
+<div  th:style="'background-color:' + ${color}">
+    <section class="layout row center-md">
+        <h2 data-th-text="${company}"></h2>
+        <div data-portal-region="middle" class="col-xs-12">
+            <div data-th-each="component : ${middleRegion.components}" data-th-remove="tag">
+                <div data-portal-component="${component.path}" data-th-remove="tag" />
+            </div>
+        </div>
+        
+    </section>
+</div>

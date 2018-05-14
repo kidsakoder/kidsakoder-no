@@ -1,9 +1,14 @@
 <layout>
   <display-name>Three column</display-name>
   <config>
-    <input name="fullWidth" type="CheckBox">
-      <label>Full width</label>
-      <occurrences minimum="0" maximum="1"/>
+    <input type="RadioButton" name="color">
+      <label>Background color</label>
+      <occurrences minimum="1" maximum="1"/>
+      <config>
+      <option value="white">White</option>
+      <option value="black">Black</option>
+      </config>
+      <default>white</default>
     </input>
   </config>
   <regions>
